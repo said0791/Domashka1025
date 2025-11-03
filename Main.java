@@ -21,33 +21,39 @@ public class Main {
         }
         System.out.println(" Задания-3");
 
-        var age3 = 60;
+        int age3 = 60;
 
-        if (age3 <= 50) {
-            System.out.println("Если скорость привышает " + age3 + " км/ч, то придется заплатить штраф");
+        if (age3 >= 60) {
+            System.out.println("Если скорость " + age3 + " км/ч, то придется заплатить штраф");
         } else {
-            System.out.println("Если скорость нет, если она меньше  " + age3 + "км/ч можно ездить спокойно");
+            System.out.println("Если скорость " + age3 + " км/ч, то можно ездить спокойно");
         }
 
         System.out.println(" Задания-4");
+
         int age4 = 1;
 
         if (age >= 2 && age <= 6) {
             System.out.println("Если возраст человека равен " + age4 + " то ему нужно ходить в детский сад");
         } else {
-            System.out.println("Если возраст человека равен " + age4 + "  то ему не рано ходить в детский сад");
+            System.out.println("Если возраст человека равен " + age4 + "  то ему рано ходить в детский сад");
         }
         int age5 = 7;
         if (age5 >= 7 && age5 <= 17) {
             System.out.println("Если возраст человека равен " + age5 + " то ему нужно ходить в школу");
-        } else {
+        } else if (age5 < 7){
             System.out.println("Если возраст человека равен " + age5 + " то ему нужно ходить в детский сад");
-        }
+        }else {
+            System.out.println("Если возраст человека равен " + age5 + ", то ему нужно ходить в университет");}
+
+
         int age6 = 18;
         if (age6 >= 18 && age6 <= 24) {
             System.out.println("Если возраст человека равен " + age6 + " то ему нужно ходить в университет ");
+        } else if (age6 < 18) {
+            System.out.println("Если возраст человека равен " + age6 + ", то ему нужно ходить в школу");
         } else {
-            System.out.println("Если возраст человека равен " + age6 + " то ему нужно ходить в школу ");
+            System.out.println("Если возраст человека равен " + age6 + ", то ему нужно ходить на работу");
         }
         {
             int age7 = 25;
@@ -58,11 +64,11 @@ public class Main {
         }
         System.out.println(" Задания-5");
 
-        var age8 = 5;
+        int age8 = 5;
         if (age8 <= 5) {
             System.out.println("Если ребенку меньше " + age8 + "  лет, то он не может кататься на аттракционе");
         }
-        System.out.println(" Задания 5");
+        System.out.println(" Задания 6");
         var age9 = 15;
         var zet = "yes";
         if (age9 >= 5 && age9 <= 14) {
@@ -107,4 +113,4 @@ public class Main {
 
 
         }}}
-}
+
